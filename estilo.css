@@ -18,3 +18,33 @@
     border-radius: 50%;
     margin: 60px;
 }
+
+.links {
+    list-style: none;
+    display: flex;
+    margin: 60px;
+    
+}
+ul li a {
+    color: #fff;
+    font-family: roboto;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgba(20, 20, 182, 0.884);
+    background:#676470;
+    transition:all 0.3s ease;
+    border-radius: 15px;
+    opacity: .5s;
+}
+body {
+    background-image:url(../fotos/bandeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
