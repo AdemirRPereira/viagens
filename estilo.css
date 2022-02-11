@@ -41,6 +41,8 @@ a:hover {
     border-radius: 15px;
     opacity: .5s;
 }
+/*corpo da pagina*/
+
 body {
     background-image:url(../fotos/bandeira.jpg);
     background-repeat: no-repeat;
