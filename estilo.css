@@ -47,6 +47,7 @@ body {
     background-image:url(../fotos/bandeira.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 /*aqui começa os slides*/
 
