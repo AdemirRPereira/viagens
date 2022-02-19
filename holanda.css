@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #332;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 60px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    margin: 60px;
+    
+}
+ul li a {
+    color: #fff;
+    font-family: roboto;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgba(20, 20, 182, 0.884);
+    background:#676470;
+    transition:all 0.3s ease;
+    border-radius: 15px;
+    opacity: .5s;
+}
+/*estilizar o corpo da pagina*/
+
+body {
+    background-image: url("./badeira.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.galery img {
+    position: relative;
+    width: 750px;
+    height: 500px;
+    top: 130px;
+    bottom: 30px;
+    left: 260px;
+
+}
+
+img {
+    margin-bottom: 30px;
+    border: #124975 4px solid;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* menu da págiana*/
+.menu {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #332;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 60px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    margin: 60px;
+    
+}
+ul li a {
+    color: #fff;
+    font-family: roboto;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgba(20, 20, 182, 0.884);
+    background:#676470;
+    transition:all 0.3s ease;
+    border-radius: 15px;
+    opacity: .5s;
+}
+
+/*Todo o corpo da página*/
+
+body {
+    background-image: url("bandeira.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+
+.carrocel {
+    width: 600px;
+    height: 350px;
+    overflow: hidden;
+    margin: 100px auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7)
+    
+}
+
+.carrocel ul {
+    display: flex;
+    list-style: none;
+    width: 1800px;
+    height: 350px;
+
+}
+.carrocel li {
+    position: relative;
+    animation: slide 15s infinite ease-out;
+
+}
+
+@keyframes slide{ 
+    0% {left: 0px}
+    20% {left: 0px}
+
+    30% {left: -600px}
+    50% {left: -600px}
+
+    60% {left: -1200px}
+    90% {left: -1200px}
+    
+    100% {left: 0px}
+}
+
+ul li img {
+    width: 600px;
+    height: 350px;
+}
+   
